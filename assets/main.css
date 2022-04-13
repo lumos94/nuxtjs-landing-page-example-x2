@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.horizontal-lines {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #6c757d;
+    line-height: 0.1em;
+    /*margin: 10px 0 20px;*/
+}
+
+.blueLine {
+    height: 3px;
+    min-width: 170px;
+    width: 15%;
+    margin: auto;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.text-light {
+    color: white;
+}
+
+.padding-0 {
+    padding: 0 !important;
+}
+
+.mb-50 {
+    margin-bottom: -50px !important;
+}
+
+.color-gold {
+    color: #FBB040;
+}
+
+.rounded-35 {
+    border-radius: 35px !important;
+}
+
+.font-size-67 {font-size: 67px;line-height: 1.2;}
+.font-size-42 {font-size: 42px;}
+.font-size-39 {font-size: 39px;}
+.font-size-34 {font-size: 34px;}
+.font-size-27 {font-size: 27px !important;}
+.font-size-26 {font-size: 26px;}
+.font-size-21 {font-size: 21px !important;}
+.font-size-18 {font-size: 18px !important;}
+.font-size-16 {font-size: 16px;}
+
+.bg-grey {
+    background-color: #F6F6F6;
+}
+
+.darkBgGrey {
+    background-color: #333333;
+}
+
+.v-application .primary {
+    background-color: #3D82C5 !important;
+    border-color: #3D82C5 !important;
+}
+
+.row {margin: 0px !important;}
+
+/*XS SCREEN*/
+@media (max-width: 599px) {
+    .font-size-67 {font-size: 47px;}
+    .font-size-42 {font-size: 32px;}
+    .font-size-39 {font-size: 29px;}
+    .font-size-34 {font-size: 24px;}
+    .font-size-27 {font-size: 23px !important;}
+    .font-size-26 {font-size: 22px;}
+    .font-size-21 {font-size: 17px !important;}
+    .font-size-18 {font-size: 15px !important;}
+    .font-size-16 {font-size: 12px;}
+    .mainLogo {width:320px}
+}
+
+/*SM SCREEN*/
+@media (min-width: 600px) and (max-width: 959px) {
+    .font-size-67 {font-size: 67px;}
+    .font-size-42 {font-size: 40px;}
+    .font-size-39 {font-size: 39px;}
+    .font-size-34 {font-size: 30px;}
+    .font-size-27 {font-size: 27px !important;}
+    .font-size-26 {font-size: 26px;}
+    .font-size-21 {font-size: 18px !important;}
+    .font-size-18 {font-size: 18px !important;}
+    .font-size-16 {font-size: 16px;}
+    .mainLogo {width:400px;}
+}
+
+/*MD SCREEN*/
+@media (min-width: 960px) and (max-width: 1263px) {
+    .step8 {min-height:203px}
+    .step9 {min-height:259px}
+    .step10 {min-height:293px}
+}
+
+/*LG SCREEN*/
+@media (min-width: 1264px) and (max-width: 1903px) {
+    .step8 {min-height:145px}
+    .step9 {min-height:168px}
+    .step10 {min-height:194px}
+}
+
+/*XL SCREEN*/
+@media (min-width: 1903px) {
+    .mainLogo {width: 450px}
+    .step8 {min-height:117px}
+    .step9 {min-height:157px}
+    .step10 {min-height:165px}
+}
