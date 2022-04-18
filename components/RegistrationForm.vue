@@ -116,31 +116,31 @@
                 <template v-slot:label>
                   <div class="subtitle-2">
                     <i18n
-                      path="register.bzTac"
+                      path="register.tac"
                     >
                       <template #termsAndConditions>
                         <a
                           v-text="$t('legal.termsAndConditions')"
                           target='_blank'
-                          :href="$config.baseURL_SM + '/public/website/theme/media/documents/TermsAndConditions.pdf'"
+                          :href="$config.baseURL + ''"
                           @click.stop
                         />
                       </template>
 
-                      <template #privacyPolicy>
+                      <template #document3>
                         <a
-                          v-text="$t('legal.privacyPolicy')"
+                          v-text="$t('legal.document3')"
                           target='_blank'
-                          :href='$config.baseURL_SM + "/public/website/theme/media/documents/PrivacyPolicy.pdf"'
+                          :href='$config.baseURL + ""'
                           @click.stop
                         />
                       </template>
 
-                      <template #bonusTermsAndConditions>
+                      <template #document4>
                         <a
-                          v-text="$t('legal.bonusTermsAndConditions')"
+                          v-text="$t('legal.document4')"
                           target='_blank'
-                          :href='$config.baseURL_SM + "/public/website/theme/media/documents/additional/BonusTermsAndConditions.pdf"'
+                          :href='$config.baseURL + ""'
                           @click.stop
                         />
                       </template>
@@ -160,7 +160,7 @@
         <v-row>
           <v-col class="text-center">
             <v-btn
-              class="py-8 my-3 px-15 font-size-18"
+              class="py-2 py-sm-8 my-3 px-15 font-size-18"
               color="primary"
               depressed
               type="submit">

@@ -137,12 +137,12 @@ export default {
 
   publicRuntimeConfig: {
     axios: {
-      baseURL: "http://backup.test/landing-pages"
+      baseURL: "http://backup.test/registration-signin_portal"
     },
     // baseURL: process.env.LP_URL,
-    baseURL_SM: "http://backup.test/landing-pages",
+    baseURL: "http://backup.test/registration-signin_portal",
     API_KEY: process.env.API_KEY,
-    LEMA_URL: process.env.LEMA_URL,
+    OTHER_URL: process.env.OTHER_URL,
     CRM_URL: process.env.CRM_URL
   },
   privateRuntimeConfig: {

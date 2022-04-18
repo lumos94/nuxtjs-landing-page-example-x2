@@ -12,7 +12,7 @@
               <v-col>
                 <v-img
                   src="/logos/logo-dark-horizontal.svg"
-                  alt="scopemarkets logo" class="mainLogo"
+                  alt="logo" class="mainLogo"
                   contain/>
               </v-col>
             </v-row>
@@ -62,7 +62,7 @@
               <v-col
                 class="d-flex justify-center">
                 <img
-                  src="/logos/logo-investing-black.png"
+                  src="/logos/logo-black.png"
                   style="max-width:286px;width:100%"
                   class="pb-5"/>
               </v-col>
@@ -92,20 +92,20 @@
           md="6"
           class="align-center d-none d-md-flex">
           <v-img
-            src="/images/mobiles.png"
+            src="/images/steps.png"
             contain/>
         </v-col>
         <v-col
           cols="12"
           md="6" class="d-flex justify-center justify-md-start">
-          <simple-steps-claim-bonus/>
+          <steps-section/>
         </v-col>
       </v-row>
     </v-container>
 
     <div class="bg-grey py-10">
       <v-container>
-        <why-scope-section/>
+        <above-footer-section />
       </v-container>
     </div>
     <v-dialog v-model='importantTermsDialog'
@@ -128,7 +128,7 @@
           </v-toolbar>
         </v-card-title>
 
-        <important-bonus-terms></important-bonus-terms>
+        <popup-box-with-text></popup-box-with-text>
       </v-card>
     </v-dialog>
   </div>

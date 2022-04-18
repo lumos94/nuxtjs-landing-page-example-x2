@@ -25,7 +25,7 @@
           </v-btn>
           <br>
           <span class="mr-md-15 caption text-center text-light">
-            <a v-if="useDialog" @click.stop="showBonusTerms" class="font-size-16" style="color: white;text-decoration:none">*{{$t("legal.termsAndConditionsApply")}}</a>
+            <a v-if="useDialog" @click.stop="showPopupWithText" class="font-size-16" style="color: white;text-decoration:none">*{{$t("legal.termsAndConditionsApply")}}</a>
             <a v-else href="#termsAndConditions" class="font-size-16" style="color: white;text-decoration:none">*{{$t("legal.termsAndConditionsApply")}}</a>
           </span>
         </div>
@@ -41,7 +41,7 @@ export default {
     useDialog: Boolean
   },
   methods: {
-    async showBonusTerms() {
+    async showPopupWithText() {
         this.$emit('openDialog')
     }
   }

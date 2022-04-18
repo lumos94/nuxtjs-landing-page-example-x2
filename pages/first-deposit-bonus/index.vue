@@ -12,7 +12,7 @@
               <v-col>
                 <v-img
                   src="/logos/logo-dark-horizontal.svg"
-                  alt="scopemarkets logo" class="mainLogo"
+                  alt="logo" class="mainLogo"
                   contain/>
               </v-col>
             </v-row>
@@ -52,7 +52,7 @@
           md="6"
           class="align-center d-none d-md-flex">
           <v-img
-            src="/images/mobiles.png"
+            src="/images/steps.png"
             contain/>
         </v-col>
 
@@ -92,20 +92,20 @@
         <v-col
           cols="12"
           md="6" class="d-flex justify-center justify-md-start">
-          <simple-steps-claim-bonus/>
+          <steps-section/>
         </v-col>
       </v-row>
     </v-container>
 
     <div>
       <v-container>
-        <important-bonus-terms/>
+        <popup-box-with-text/>
       </v-container>
     </div>
 
     <div class="py-10">
       <v-container>
-        <why-scope-section/>
+        <above-footer-section />
       </v-container>
     </div>
 
@@ -113,13 +113,10 @@
 </template>
 
 <script>
-//https://github.com/yogakurniawan/vue-tel-input-vuetify
-import VueTelInputVuetify from 'vue-tel-input-vuetify/lib/vue-tel-input-vuetify'
-
 export default {
   head() {
     return {
-      title: 'SM BZ | Register With Us',
+      title: 'Landing Page 2',
       titleTemplate(title) {
         return title
       }
@@ -127,7 +124,7 @@ export default {
   },
   name: "index.vue",
   data: () => ({
-    source_url: 'https://lp.scopemarkets.com/en/first-deposit-bonus'
+    source_url: 'page url'
   })
 
 }

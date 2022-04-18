@@ -2,13 +2,13 @@
   <div class="text-center mx-5">
     <v-row>
       <v-col>
-        <span class="font-size-26 font-weight-regular">{{ $t('whyScopeSection.title')}}</span>
+        <span class="font-size-26 font-weight-regular">{{ $t('aboveFooterSection.title')}}</span>
       </v-col>
     </v-row>
     <v-row>
       <v-col class="d-flex justify-center align-center mb-10">
         <span class="font-weight-light font-size-21" style="width:100%;max-width:760px">
-          {{ $t('whyScopeSection.description')}}
+          {{ $t('aboveFooterSection.description')}}
         </span>
       </v-col>
     </v-row>
@@ -27,8 +27,8 @@
             max-height="65"/>
         </div>
         <br>
-        <h4 class="font-weight-bold font-size-18">{{ $t('whyScopeSection.whyOneTitle')}}</h4>
-        <span>{{ $t('whyScopeSection.whyOneDescription')}}</span>
+        <h4 class="font-weight-bold font-size-18">{{ $t('aboveFooterSection.whyOneTitle')}}</h4>
+        <span>{{ $t('aboveFooterSection.whyOneDescription')}}</span>
       </v-col>
 
       <v-col
@@ -46,8 +46,8 @@
             max-height="65"/>
         </div>
         <br>
-        <h4 class="font-weight-bold font-size-18">{{ $t('whyScopeSection.whyTwoTitle') }}</h4>
-        <span>{{ $t('whyScopeSection.whyTwoDescription')}}</span>
+        <h4 class="font-weight-bold font-size-18">{{ $t('aboveFooterSection.whyTwoTitle') }}</h4>
+        <span>{{ $t('aboveFooterSection.whyTwoDescription')}}</span>
       </v-col>
 
       <v-col
@@ -65,8 +65,8 @@
             max-height="65"/>
         </div>
         <br>
-        <h4 class="font-weight-bold font-size-18">{{ $t('whyScopeSection.whyThreeTitle')}}</h4>
-        <span>{{ $t('whyScopeSection.whyThreeDescription')}}</span>
+        <h4 class="font-weight-bold font-size-18">{{ $t('aboveFooterSection.whyThreeTitle')}}</h4>
+        <span>{{ $t('aboveFooterSection.whyThreeDescription')}}</span>
       </v-col>
 
       <v-col
@@ -84,8 +84,8 @@
             max-height="65"/>
         </div>
         <br>
-        <h4 class="font-weight-bold font-size-18">{{ $t('whyScopeSection.whyFourTitle')}}</h4>
-        <span>{{ $t('whyScopeSection.whyFourDescription')}}</span>
+        <h4 class="font-weight-bold font-size-18">{{ $t('aboveFooterSection.whyFourTitle')}}</h4>
+        <span>{{ $t('aboveFooterSection.whyFourDescription')}}</span>
       </v-col>
 
       <v-col
@@ -103,8 +103,8 @@
             max-height="65"/>
         </div>
         <br>
-        <h4 class="font-weight-bold font-size-18">{{ $t('whyScopeSection.whyFiveTitle')}}</h4>
-        <span>{{ $t('whyScopeSection.whyFiveDescription')}}</span>
+        <h4 class="font-weight-bold font-size-18">{{ $t('aboveFooterSection.whyFiveTitle')}}</h4>
+        <span>{{ $t('aboveFooterSection.whyFiveDescription')}}</span>
       </v-col>
     </v-row>
   </div>
@@ -112,7 +112,7 @@
 
 <script>
 export default {
-  name: "WhyScopeSection"
+  name: "AboveFooterSection"
 }
 </script>
 

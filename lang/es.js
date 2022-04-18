@@ -1,150 +1,163 @@
 const legal = {
-  termsAndConditions: "Términos y condiciones",
-  privacyPolicy: "Política de Privacidad",
-  noticeRiskDisclosure: "Aviso de Divulgación de Servicios",
-  riskDisclosure: "Declaración de Riesgos",
-  restrictedCountries: "Países Restringidos"
+  termsAndConditions: "Aliquam Etiam Erat",
+  document3: "Tincidunt Augue",
+  noticeRiskDisclosure: "Sit Amet Nisl",
+  document1: "Sit Amet",
+  document2: "Et Pharetra",
+    termsAndConditionsApply: "Aliquam Etiam Erat Amet",
+  document4: "Pharetra Pharetra Massa Massa Ultricies Mi"
 }
 
 const register = {
-  titlePage: "Abrir una cuenta", //Open an Account
-  name: "Nombre",
-  lastName: "Apellido",
-  email: "Correo electrónico",
-  countryOfResidence: "País de residencia",
-  countryOfResidenceLabel: "Seleccione el país de residencia",
-  phone: "Teléfono",
-  phoneLabel: "Ingrese su número telefónico",
-  phoneHint: "El número de teléfono debe tener entre 6 y 20 caracteres",
-  password: "Contraseña",
-  passwordHint: "La contraseña debe tener al menos 8 caracteres, debe contener al menos una mayúscula, una minúscula y un número. No se permiten espacios en blanco",
-  bzTac: `Acepto los {termsAndConditions} y la {privacyPolicy}.`,
-  saTac: `Entiendo y acepto los
-                         {termsAndConditions}
-                          y la
-                          {privacyPolicy} de Scope Markets LTD.
-                          Entiendo y acepto el
-                          {noticeRiskDisclosure} y la
-                         {privacyPolicySA} de Scope Markets SA (Pty) Ltd.`,
-  marketing_agreement: "Al registrarse, acepta recibir avisos de marketing y publicidad.",
-  submit: "Enviar",
-  alreadyHaveAnAccount: "¿Ya tiene una cuenta?",
-  logIn: "Iniciar sesión",
-  prefix: "Test"
+  titlePage: "Nascetur Ridiculus Mus",
+  name: "First Name",
+  lastName: "Last Name",
+  email: "Email",
+  countryOfResidence: "Country of Residence",
+  countryOfResidenceLabel: "Select Country of Residence",
+  phone: "Phone",
+  phoneLabel: "Enter your phone number",
+  phoneHint: "Phone Number should be between 6-20 characters",
+  password: "Password",
+  passwordHint: "Password must be at least 8 characters long, must contain at least one uppercase character, one lowercase character, and one number. Spaces are not allowed.",
+  tac: `I agree to the {termsAndConditions}, {document3} and {document4}.`,
+  marketing_agreement: "By opening an account with us, you agree to receive our marketing communications. You can opt out at any time.",
+  submit: "Register",
+  prefix: "Prefix"
 }
 
 const resultDialog = {
   errorTitle: "ERROR",
-  connectionFailedMessage: `La conexión ha fallado. Por favor, inténtelo de nuevo o póngase en contacto con nosotros en <a href="mailto:customerservice@scopemarkets.com">customerservice@scopemarkets.com</a>`,
-  issueWithRegistration: "Ha habido un problema con su registro. Inténtelo de nuevo o póngase en contacto con nosotros.",
-  close: "Cerrar",
+  connectionFailedMessage: `Connection failed! Please try again or contact us at <a href="mailto:test@test.com">test@test.com</a>`,
+  issueWithRegistration: "There has been an issue with your registration! Please try again or contact us.",
+  close: "Close",
 }
 
-const resetPassword = {
-  titlePage: "Establecer nueva contraseña"
+const clippedSection = {
+  mainText: `Lorem ipsum dolor sit amet, <span class='color-gold'>50%</span>  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
 }
 
-const agreement_acceptance = {
-  importantNotice: "Aviso importante",
-  firstParagraph: "En base a su selección, usted registrará una cuenta con Scope Markets Limited, que es una empresa extranjera registrada en Belice con número de registro 145,138.",
-  secondParagraph: "Scope Markets Ltd está autorizada y regulada por la Comisión Internacional de Servicios Financieros de Belice (IFSC) bajo los números de licencia IFSC 000274/222 e IFSC 00274/221.",
-  thirdParagraph: "Scope Markets Ltd actúa como proveedor de CFDs y de productos para sus operaciones, tal y como lo anuncia Scope Markets SA (PTY) Ltd que actúa como broker intermediario en nombre de Scope Markets Ltd. Scope Markets SA (Pty) Ltd (Número de registro 2016/137466/07) es una empresa de servicios financieros autorizada y regulada por la Autoridad de Conducta del Sector Financiero (FSCA) bajo el número de licencia FSP 47025.",
-  fourthParagraph: "Todos los productos anunciados por Scope Markets SA (Pty) Ltd son proporcionados por Scope Markets Ltd como principal."
+const ctaButtons = {
+  startTradingNowButton: "Lorem Ipsum Dolor"
 }
 
-const signin = {
-  titlePage: "Iniciar sesión",
-  forgotPassword: "¿Olvidó su contraseña?",
-  dontHaveAnAccount: "¿No tiene una cuenta?",
-  registerHere: "Regístrese aquí",
-  credentialsErrorMessage: "El nombre de usuario y la contraseña no coinciden."
+const firstSection = {
+  header: `<span class='color-gold'>Tellus</span> mauris a diam to <span class='color-gold'>maecenas</span><span class='font-size-26' style='vertical-align: text-top'>*</span>`,
+  subheader: "Libero enim sed faucibus turpis. In dictum non consectetur a erat nam.",
+  minDepositDisclaimer: "Facilisi nullam vehicula ipsum a arcu*"
 }
 
-const verify = {
-  titlePage: "Verificar correo electrónico",
-  successfulVerification: `¡Ha verificado correctamente su correo electrónico! Después de eso, podrá acceder a su cuenta de operaciones.
-Para más información, puede ponerse en contacto con nosotros en <a href='mailto:customerservice@scopemarkets.com'>customerservice@scopemarkets.com</a> o haciendo clic <a onclick="window.fcWidget.open()">aquí</a> para hablar con uno de nuestros agentes.nueva contraseña para su cuenta. Después de eso, puede iniciar sesión en su cuenta de operacione`,
-  linkInvalid: `El enlace de verificación del correo electrónico ya no es válido. Póngase en contacto con <a href='mailto:customerservice@scopemarkets.com'>customerservice@scopemarkets.com</a> o haga clic <a onclick="window.fcWidget.open()">aquí</a> para hablar con uno de nuestros agentes. Alternativamente, si ya ha verificado su cuenta, puede iniciar sesión <a onclick="window.location.replace('/es/signin')">aquí</a>.`,
-  failVerification: `Se ha producido un error en el proceso de verificación. Inténtelo de nuevo o póngase en contacto con nuestro servicio de atención al cliente enviando un correo electrónico a <a href='mailto:customerservice@scopemarkets.com'>customerservice@scopemarkets.com</a> o haciendo clic <a onclick="window.fcWidget.open()">aquí</a> para hablar con uno de nuestros agentes. Si ya ha verificado su cuenta, puede iniciar sesión <a onclick="window.location.replace('/es/signin')">aquí</a>.`
+const stepsSection = {
+  title: "Bibendum est ultricies integer quis auctor elit",
+  stepOneTitle: "STEP 1: Odio tempor orci",
+  stepOneText: "Odio tempor orci dapibus ultrices.",
+  stepTwoTitle: "STEP 2: Consequat ac felis",
+  stepTwoText: "Consequat ac felis donec et odio.",
+  stepThreeTitle: "STEP 3: Tristique sollicitudin",
+  stepThreeText: "Tristique sollicitudin nibh sit amet commodo nulla facilisi.",
+  stepFourTitle: "STEP 4: Felis eget nunc lobortis",
+  stepFourText: "Felis eget nunc lobortis mattis aliquam."
+}
+
+const popupBoxWithText = {
+  title: `LOREM  <br> IPSUM DOLOR`,
+  termOne: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus mauris a diam maecenas. Libero enim sed faucibus turpis. In dictum non consectetur a erat nam. In egestas erat imperdiet sed euismod.",
+  termTwo: `Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Amet mattis vulputate enim nulla aliquet porttitor. Leo duis ut diam quam.
+<br><br>
+<strong>Ipsum: </strong>Ipsum dolor sit amet consectetur adipiscing elit. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Nulla facilisi etiam dignissim diam quis.`,
+  termThree: "Sapien et ligula ullamcorper malesuada proin libero nunc consequat. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Cursus mattis molestie a iaculis at erat pellentesque adipiscing.",
+  termFour: `Odio ut sem nulla pharetra diam sit amet nisl suscipit. Magna ac placerat vestibulum lectus. Condimentum mattis pellentesque id nibh tortor id. Tellus orci ac auctor augue mauris. Mattis molestie a iaculis at erat pellentesque adipiscing commodo.
+    <br> <br>
+    <strong>Facilisi: </strong>Facilisi nullam vehicula ipsum a arcu. Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum.`,
+  termFive: "Fringilla phasellus faucibus scelerisque eleifend. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam.",
+  termSix: "Egestas sed sed risus pretium quam. Bibendum ut tristique et egestas quis ipsum. Varius duis at consectetur lorem donec. Mi tempus imperdiet nulla malesuada pellentesque elit eget. Eget sit amet tellus cras adipiscing enim eu. Nibh ipsum consequat nisl vel pretium.",
+  termSeven: `Egestas fringilla phasellus faucibus scelerisque eleifend. Aliquet lectus proin nibh nisl condimentum. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper.
+<br><br>
+<strong>Ullamcorper: </strong> Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Nunc lobortis mattis aliquam faucibus purus. Pharetra et ultrices neque ornare aenean euismod. Cursus risus at ultrices mi. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Bibendum est ultricies integer quis auctor elit sed vulputate mi. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Lobortis mattis aliquam faucibus purus in massa. Ullamcorper sit amet risus nullam eget felis. In fermentum posuere urna nec tincidunt praesent semper feugiat. Lobortis feugiat vivamus at augue.`,
+  termEight: "Sed id semper risus in hendrerit gravida rutrum quisque.",
+  termNine: "Et magnis dis parturient montes nascetur ridiculus mus. Donec adipiscing tristique risus nec feugiat in fermentum posuere. Turpis nunc eget lorem dolor sed. Tristique et egestas quis ipsum. Lacus vel facilisis volutpat est velit egestas dui id.",
+  termTen: "Eget magna fermentum iaculis eu. Et magnis dis parturient montes nascetur ridiculus mus. Donec adipiscing tristique risus nec feugiat in fermentum posuere.",
+  fullTermsAndConditions: "Purus gravida quis blandit turpis cursus"
+}
+
+const aboveFooterSection = {
+  title: "Risus feugiat in ante metus dictum.",
+  description: "Rhoncus dolor purus non enim praesent elementum facilisis leo vel. Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Id aliquet lectus proin nibh nisl condimentum id.",
+  whyOneTitle: "Vestibulum mattis",
+  whyOneDescription: "Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt.",
+  whyTwoTitle: "Varius duis at consectetur",
+  whyTwoDescription: "Varius duis at consectetur lorem donec massa sapien faucibus.",
+  whyThreeTitle: "Felis imperdiet proin fermentum leo vel orci porta",
+  whyThreeDescription: "Tristique magna sit amet purus gravida. Est lorem ipsum dolor sit. Urna porttitor rhoncus dolor purus non enim praesent.",
+  whyFourTitle: "Neque sodales ut etiam sit amet nisl purus. Nulla aliquet porttitor lacus luctus accumsan tortor.",
+  whyFourDescription: "Augue ut lectus arcu bibendum. Vulputate sapien nec sagittis aliquam.",
+  whyFiveTitle: "Integer eget aliquet nibh praesent tristique magna sit.",
+  whyFiveDescription: "Urna porttitor rhoncus dolor purus non enim praesent elementum. Volutpat commodo sed egestas egestas. Velit sed ullamcorper morbi tincidunt ornare."
 }
 
 const footer = {
-  legalInformation: "Información legal",
-  legalInformationText: "Scope Markets Ltd es una empresa registrada en Belice con el número de registro 145.138. Scope Markets Ltd está autorizada y regulada por la Comisión Internacional de Servicios Financieros de Belice ('IFSC') con los números de licencia 000274/222 y 000274/221. El domicilio registrado de Scope Markets Ltd es, 6160 Park Avenue, Buttonwood Bay, Lower Flat Office Space Front, Ciudad de Belice, Belice.",
-  riskWarning: "Advertencia de riesgo",
-  riskWarningText: `Tenga en cuenta que el comercio de divisas y de otros productos apalancados implica un nivel de riesgo significativo y no es adecuado para todos los inversores. Las operaciones con instrumentos financieros pueden dar lugar tanto a pérdidas como a beneficios y sus pérdidas pueden ser mayores que el capital invertido inicialmente. Antes de realizar este tipo de operaciones, debe asegurarse de que comprende plenamente los riesgos que conllevan y, si es necesario, solicitar asesoramiento independiente. Por favor, lea y asegúrese de comprender plenamente nuestra {riskDisclosure}.`,
-  restrictedCountries: "Regiones restringidas",
-  restrictedCountriesText: `Scope Markets no ofrece sus servicios a los residentes de ciertas jurisdicciones. Por favor, lea atentamente nuestro documento de {restrictedCountries}.`,
-  cookiesPolicyText: `Este sitio web utiliza cookies para ofrecerle la mejor experiencia y conocerle mejor. Al visitar nuestro sitio web con su navegador configurado para permitir las cookies, usted acepta nuestro uso de las cookies tal y como se describe en nuestra {privacyPolicy}.`,
-  copyrightDisclaimer: "© Copyright 2021 Scope Markets. Todos los derechos reservados."
+  legalInformation: "Lorem Ipsum Iolor",
+  legalInformationText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut eu sem integer vitae justo eget. Cursus vitae congue mauris rhoncus aenean vel elit. Ut lectus arcu bibendum at. Ullamcorper velit sed ullamcorper morbi tincidunt ornare. Elit sed vulputate mi sit amet mauris commodo. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Sit amet mattis vulputate enim.",
+  document1: "Diam vel",
+  document1Text: `Pretium nibh ipsum consequat nisl vel pretium lectus quam. Posuere ac ut consequat semper viverra nam. At lectus urna duis convallis convallis. Rhoncus est pellentesque elit ullamcorper dignissim cras. Enim facilisis gravida neque convallis a cras {document1}.`,
+  document2: "Nulla facilisi",
+  document2Text: `Nulla facilisi nullam vehicula ipsum a arcu cursus. Aliquet lectus proin nibh nisl condimentum id venenatis {document2} porta .`,
+  document3Text: `Et netus et malesuada fames ac. Tincidunt dui ut ornare lectus sit amet est placerat. In nisl nisi scelerisque eu ultrices vitae. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc {document3}.`,
+  copyrightDisclaimer: "© Copyright 20xx Massa tempor. All Rights Reserved."
 }
 
-const resetPasswordDialog = {
-  close: "Cerrar",
-  dialogTitle: "Restablecer contraseña",
-  dialogSubtitle: "Puede restablecer su contraseña aquí.",
-  resetPassword: "Restablecer contraseña", //button
-  requestReceivedSuccess: "Su solicitud ha sido recibida. Siempre que esté registrada una cuenta con esta dirección de correo electrónico, recibirá en breve instrucciones sobre cómo restablecer su contraseña."
+const socialMedia = {
+  twitter: `https://twitter.com/`,
+  facebook: "https://www.facebook.com/",
+  linkedin: "https://www.linkedin.com/",
+  instagram: "https://www.instagram.com/darkunicode"
 }
-
-const homePage = {
-  signUpTitle: "Regístrate ahora",
-  signUpSubtitle: "Crea una cuenta ahora.",
-  signUpButton: "Regístrese",
-  signInTitle: "¡Bienvenido de nuevo!",
-  signInSubtitle: "Para mantenerse conectado con nosotros, inicie sesión con su información personal.",
-  signInButton: "Acceso",
-}
-
 const header = {
-  language: "Idioma"
+  language: "Language"
 }
-
 const validations = {
   messages: {
-    "alpha": "El campo {_field_} solo debe contener letras",
-    "alpha_dash": "El campo {_field_} solo debe contener letras, números y guiones",
-    "alpha_num": "El campo {_field_} solo debe contener letras y números",
-    "alpha_spaces": "El campo {_field_} solo debe contener letras y espacios",
-    "between": "El campo {_field_} debe estar entre {min} y {max}",
-    "confirmed": "El campo {_field_} no coincide",
-    "digits": "El campo {_field_} debe ser numérico y contener exactamente {length} dígitos",
-    "dimensions": "El campo {_field_} debe ser de {width} píxeles por {height} píxeles",
-    "email": "El campo {_field_} debe ser un correo electrónico válido",
-    "excluded": "El campo {_field_} debe ser un valor válido",
-    "ext": "El campo {_field_} debe ser un archivo válido",
-    "image": "El campo {_field_} debe ser una imagen",
-    "oneOf": "El campo {_field_} debe ser un valor válido",
-    "integer": "El campo {_field_} debe ser un entero",
-    "length": "El largo del campo {_field_} debe ser {length}",
-    "max": "El campo {_field_} no debe ser mayor a {length} caracteres",
-    "max_value": "El campo {_field_} debe de ser {max} o menor",
-    "mimes": "El campo {_field_} debe ser un tipo de archivo válido",
-    "min": "El campo {_field_} debe tener al menos {length} caracteres",
-    "min_value": "El campo {_field_} debe ser {min} o superior",
-    "numeric": "El campo {_field_} debe contener solo caracteres numéricos",
-    "regex": "{_field_} debe tener al menos 8 caracteres, debe contener al menos una mayúscula, una minúscula y un número. No se permiten espacios en blanco",
-    "required": "El campo {_field_} es obligatorio",
-    "required_if": "El campo {_field_} es obligatorio",
-    "size": "El campo {_field_} debe ser menor a {size}KB",
-    "double": "El campo {_field_} debe ser un decimal válido",
-    "is": "El campo {_field_} no coincide con {other}",
-    "is_not": "El campo {_field_} debe ser diferente a {other}",
-    "included": "Este {_field_} está restringido"
-
+    "alpha_num": "The {_field_} field may only contain alpha-numeric characters.",
+    "alpha_dash": "The {_field_} field may contain alpha-numeric characters as well as dashes and underscores.",
+    "alpha_spaces": "{_field_} should only contain alphabetic characters or spaces.",
+    "between": "The {_field_} field must be between {min} and {max}.",
+    "confirmed": "The {_field_} field confirmation does not match.",
+    "digits": "The {_field_} field must be numeric and exactly contain {length} digits.",
+    "dimensions": "The {_field_} field must be {width} pixels by {height} pixels.",
+    "email": "Please enter a valid email address.",
+    "excluded": "The {_field_} field is not a valid value.",
+    "ext": "The {_field_} field is not a valid file.",
+    "image": "The {_field_} field must be an image.",
+    "integer": "The {_field_} field must be an integer.",
+    "length": "The {_field_} field must be {length} long.",
+    "max_value": "The {_field_} field must be {max} or less.",
+    "max": "The {_field_} field may not be greater than {length} characters.",
+    "mimes": "The {_field_} field must have a valid file type.",
+    "min_value": "The {_field_} field must be {min} or more.",
+    "min": "The {_field_} field must be at least {length} characters.",
+    "numeric": "The {_field_} field may only contain numeric characters.",
+    "oneOf": "The {_field_} field is not a valid value.",
+    "regex": "{_field_} must be at least 8 characters long, must contain at least one uppercase, one lowercase character and one number. White spaces are not allowed.",
+    "required_if": "The {_field_} field is required.",
+    "required": "Please enter your {_field_}.",
+    "size": "The {_field_} field size must be less than {size}KB.",
+    "double": "The {_field_} field must be a valid decimal.",
+    "included": "The {_field_} is restricted."
   }
 }
+
 export default {
   legal,
   register,
   resultDialog,
-  resetPassword,
-  agreement_acceptance,
-  signin,
-  verify,
+  clippedSection,
+  ctaButtons,
+  firstSection,
+  stepsSection,
+  popupBoxWithText,
+  aboveFooterSection,
   footer,
-  resetPasswordDialog,
-  homePage,
+  socialMedia,
   header,
   validations
 }

@@ -7,7 +7,7 @@
             <v-col>
                 <v-img
                     src="/logos/logo-light-horizontal.svg"
-                    alt="scopemarkets logo" class="mainLogo"
+                    alt="logo" class="mainLogo"
                     width="320" />
             </v-col>
           </v-row>
@@ -27,17 +27,17 @@
               cols="12">
               <p
                 class="text-light footerSize">
-                <strong>{{ $t('footer.riskWarning') }}</strong>
+                <strong>{{ $t('footer.document1') }}</strong>
                 <br>
                 <i18n
-                  path="footer.riskWarningText"
+                  path="footer.document1Text"
                 >
-                  <template #riskDisclosure>
+                  <template #document1>
                     <a
-                      v-text="$t('legal.riskDisclosure')"
+                      v-text="$t('legal.document1')"
                       target='_blank'
                       class="text-light"
-                      :href='$config.baseURL_SM + "/public/website/theme/media/documents/RiskDisclosure.pdf"'
+                      :href='$config.baseURL + ""'
                     />
                   </template>
                 </i18n>
@@ -49,17 +49,17 @@
               cols="12">
               <p
                 class="text-light footerSize">
-                <strong>{{ $t('footer.restrictedCountries') }}</strong>
+                <strong>{{ $t('footer.document2') }}</strong>
                 <br>
                 <i18n
-                  path="footer.restrictedCountriesText"
+                  path="footer.document2Text"
                 >
-                  <template #restrictedCountries>
+                  <template #document2>
                     <a
-                      v-text="$t('legal.restrictedCountries')"
+                      v-text="$t('legal.document2')"
                       target='_blank'
                       class="text-light"
-                      :href='$config.baseURL_SM + "/public/website/theme/media/documents/RestrictedCountries.pdf"'
+                      :href='$config.baseURL + ""'
                     />
                   </template>
                 </i18n>
@@ -73,14 +73,14 @@
               cols="12">
               <p class="text-light footerSize">
                 <i18n
-                  path="footer.cookiesPolicyText"
+                  path="footer.document3Text"
                 >
-                  <template #privacyPolicy>
+                  <template #document3>
                     <a
-                      v-text="$t('legal.privacyPolicy')"
+                      v-text="$t('legal.document3')"
                       target='_blank'
                       class="text-light"
-                      :href='$config.baseURL_SM + "/public/website/theme/media/documents/PrivacyPolicy.pdf"'
+                      :href='$config.baseURL + ""'
                     />
                   </template>
                 </i18n>
@@ -94,7 +94,7 @@
       <v-row class="mx-1 mx-md-15 d-flex align-center justify-end">
         <v-col
           cols="6">
-          <p class="text-light footerSize ma-0">{{ $t('footer.copyrightDisclaimer', {baseURL_SM: $config.baseURL_SM}) }}</p>
+          <p class="text-light footerSize ma-0">{{ $t('footer.copyrightDisclaimer', {baseURL: $config.baseURL}) }}</p>
         </v-col>
         <v-col cols="6" align="right">
           <a class="text-decoration-none" :href="$t('socialMedia.facebook')" target="_blank"><v-icon class="px-2 social-icon" color="white">mdi-facebook</v-icon></a>

@@ -1,15 +1,15 @@
 const legal = {
-  termsAndConditions: "Terms and Conditions",
-  privacyPolicy: "Privacy Policy",
-  noticeRiskDisclosure: "Risk Disclosure Notice",
-  riskDisclosure: "Risk Disclosure",
-  restrictedCountries: "Restricted Countries",
-    termsAndConditionsApply: "Terms and Conditions apply",
-  bonusTermsAndConditions: "First Deposit Bonus Terms and Conditions"
+  termsAndConditions: "Aliquam Etiam Erat",
+  document3: "Tincidunt Augue",
+  noticeRiskDisclosure: "Sit Amet Nisl",
+  document1: "Sit Amet",
+  document2: "Et Pharetra",
+    termsAndConditionsApply: "Aliquam Etiam Erat Amet",
+  document4: "Pharetra Pharetra Massa Massa Ultricies Mi"
 }
 
 const register = {
-  titlePage: "Open an account", //Open an Account
+  titlePage: "Nascetur Ridiculus Mus",
   name: "First Name",
   lastName: "Last Name",
   email: "Email",
@@ -20,97 +20,97 @@ const register = {
   phoneHint: "Phone Number should be between 6-20 characters",
   password: "Password",
   passwordHint: "Password must be at least 8 characters long, must contain at least one uppercase character, one lowercase character, and one number. Spaces are not allowed.",
-  bzTac: `I agree to the {termsAndConditions}, {privacyPolicy} and {bonusTermsAndConditions}.`,
+  tac: `I agree to the {termsAndConditions}, {document3} and {document4}.`,
   marketing_agreement: "By opening an account with us, you agree to receive our marketing communications. You can opt out at any time.",
-  submit: "Open Account",
+  submit: "Register",
   prefix: "Prefix"
 }
 
 const resultDialog = {
   errorTitle: "ERROR",
-  connectionFailedMessage: `Connection failed! Please try again or contact us at <a href="mailto:customerservice@scopemarkets.com">customerservice@scopemarkets.com</a>`,
+  connectionFailedMessage: `Connection failed! Please try again or contact us at <a href="mailto:test@test.com">test@test.com</a>`,
   issueWithRegistration: "There has been an issue with your registration! Please try again or contact us.",
   close: "Close",
 }
 
 const clippedSection = {
-  mainText: `Here at Scope Markets we offer all new clients <span class='color-gold'>50%</span> first deposit bonus when you deposit anywhere between $100 and $100,000.`
+  mainText: `Lorem ipsum dolor sit amet, <span class='color-gold'>50%</span>  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
 }
 
 const ctaButtons = {
-  startTradingNowButton: "Start Trading Now."
+  startTradingNowButton: "Lorem Ipsum Dolor"
 }
 
 const firstSection = {
-  header: `<span class='color-gold'>50%</span> deposit bonus up to <span class='color-gold'>$50,000</span><span class='font-size-26' style='vertical-align: text-top'>*</span>`,
-  subheader: "Open an account today and claim a 50% bonus on your initial deposit, up to $100,000 (for a bonus up to of $50,000)",
-  minDepositDisclaimer: "Min deposit $100*"
+  header: `<span class='color-gold'>Tellus</span> mauris a diam to <span class='color-gold'>maecenas</span><span class='font-size-26' style='vertical-align: text-top'>*</span>`,
+  subheader: "Libero enim sed faucibus turpis. In dictum non consectetur a erat nam.",
+  minDepositDisclaimer: "Facilisi nullam vehicula ipsum a arcu*"
 }
 
-const simpleStepsClaimBonus = {
-  title: "Follow these 4 simple steps to claim your bonus",
-  stepOneTitle: "STEP 1: Open an account",
-  stepOneText: "Complete our online registration form above and open a live (real-money) trading account.",
-  stepTwoTitle: "STEP 2: Get Verified",
-  stepTwoText: "Get your account verified by our customer onboarding team (submit a valid proof of ID and proof of address).",
-  stepThreeTitle: "STEP 3: Make a Deposit",
-  stepThreeText: "Make a deposit and fund your trading account with a minimum of $100 or equivalent in your account currency.",
-  stepFourTitle: "STEP 4: Start Trading",
-  stepFourText: "Your bonus will be credited to your funded trading account within 48 hours."
+const stepsSection = {
+  title: "Bibendum est ultricies integer quis auctor elit",
+  stepOneTitle: "STEP 1: Odio tempor orci",
+  stepOneText: "Odio tempor orci dapibus ultrices.",
+  stepTwoTitle: "STEP 2: Consequat ac felis",
+  stepTwoText: "Consequat ac felis donec et odio.",
+  stepThreeTitle: "STEP 3: Tristique sollicitudin",
+  stepThreeText: "Tristique sollicitudin nibh sit amet commodo nulla facilisi.",
+  stepFourTitle: "STEP 4: Felis eget nunc lobortis",
+  stepFourText: "Felis eget nunc lobortis mattis aliquam."
 }
 
-const importantBonusTerms = {
-  title: `IMPORTANT  <br> BONUS TERMS`,
-  termOne: "The minimum first-time deposit for the bonus is $100 or equivalent in customer’s account currency (for the minimum bonus amount of $50). The maximum first-time deposit for the bonus is $100,000 (for the maximum bonus amount of $50,000).",
-  termTwo: `Only first-time deposit will qualify for the bonus. If the customer makes several first-time deposits only the very first deposit will qualify for the bonus.
+const popupBoxWithText = {
+  title: `LOREM  <br> IPSUM DOLOR`,
+  termOne: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus mauris a diam maecenas. Libero enim sed faucibus turpis. In dictum non consectetur a erat nam. In egestas erat imperdiet sed euismod.",
+  termTwo: `Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Amet mattis vulputate enim nulla aliquet porttitor. Leo duis ut diam quam.
 <br><br>
-<strong>Example: </strong>If a customer makes a deposit of $200, and 10 minutes later makes another $300 deposit, only first $200 will attract a bonus of $100 ($200 x 50%).`,
-  termThree: "The bonus can be withdrawn, once the minimum trading volume requirement has been met at a rate of $1 in bonus for every 0.25 round-turn lots traded. Therefore, to withdraw $50 in bonus funds, the customer needs to trade 12.5 round-turn lots.",
-  termFour: `A round-turn lot for the purpose of meeting the bonus minimum trading volume requirement is a standard Scope Markets MT4/5 lot, traded in both directions (position has to be opened and closed), specified under eligible instrument’s Specification, under Contract Size, inside customer MT4/5 trading terminal.
+<strong>Ipsum: </strong>Ipsum dolor sit amet consectetur adipiscing elit. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Nulla facilisi etiam dignissim diam quis.`,
+  termThree: "Sapien et ligula ullamcorper malesuada proin libero nunc consequat. Nisl suscipit adipiscing bibendum est ultricies integer quis auctor. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Cursus mattis molestie a iaculis at erat pellentesque adipiscing.",
+  termFour: `Odio ut sem nulla pharetra diam sit amet nisl suscipit. Magna ac placerat vestibulum lectus. Condimentum mattis pellentesque id nibh tortor id. Tellus orci ac auctor augue mauris. Mattis molestie a iaculis at erat pellentesque adipiscing commodo.
     <br> <br>
-    <strong>Example: </strong> 1 round-turn lot of EURUSD = 100,000 EUR opened and closed; 1 round-turn lot of XAUUSD = 100 oz of gold opened and closed.`,
-  termFive: "The term round-turn means that the position needs to be opened and closed before being considered qualified.",
-  termSix: "Only customer’s own funds can be used as a margin. The bonus amount cannot be used as an extra margin, meaning that a margin call will be issued when a customer’s own-funds part of the equity falls below 100% of the margin requirement, and customer’s trading position(s) will be stopped out when it falls to 50% or below.",
-  termSeven: `Only customer’s own funds can be used as a margin. The bonus amount cannot be used as an extra margin, meaning that a margin call will be issued when a customer’s own-funds part of the equity falls below 100% of the margin requirement, and customer’s trading position(s) will be stopped out when it falls to 50% or below.
+    <strong>Facilisi: </strong>Facilisi nullam vehicula ipsum a arcu. Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum.`,
+  termFive: "Fringilla phasellus faucibus scelerisque eleifend. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam.",
+  termSix: "Egestas sed sed risus pretium quam. Bibendum ut tristique et egestas quis ipsum. Varius duis at consectetur lorem donec. Mi tempus imperdiet nulla malesuada pellentesque elit eget. Eget sit amet tellus cras adipiscing enim eu. Nibh ipsum consequat nisl vel pretium.",
+  termSeven: `Egestas fringilla phasellus faucibus scelerisque eleifend. Aliquet lectus proin nibh nisl condimentum. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper.
 <br><br>
-<strong>Example: </strong> Customer deposits $100 and receives $50 in bonus. Customer’s total equity is $150, but customer’s own-funds part of the equity is $100. Customer opens a 0.1 lots EURUSD trading position with 1:500 leverage and EURUSD exchange rate of 1.15. Customer’s margin requirement to open this position is 100,000 (1 lot of EURUSD) x 0.1 / 500 (leverage) x 1.15 (EURUSD exchange rate) = $23. If customer’s unrealized PnL goes into -$78, customer’s total equity will drop to $150 - $78 = $72, but customer’s own-funds part of the equity will drop to $100 - $78 = $22. Since only customer’s own funds can be used as a margin, a margin call is issued, as customer’s own-funds part of the equity is now below 100% of the margin requirement for this position. Should a customer’s own-funds part of the equity fall to or below 50% of the margin requirement for this position, or ($23/2 = $11.5 or below), the trading position will be stopped out.`,
-  termEight: "Customer will have 90 days after the bonus is credited to meet the minimum trading volume requirements.",
-  termNine: "Customer is not allowed to make a withdrawal before the bonus minimum trading volume requirement is met. If a withdrawal is made before that, the bonus will be forfeited.",
-  termTen: "Customer must always maintain the required minimum margin (customer’s own-funds part of the equity above 50% of the margin requirement). If the customer is stopped out, the bonus will be forfeited.",
-  fullTermsAndConditions: "Full Terms and Conditions"
+<strong>Ullamcorper: </strong> Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Nunc lobortis mattis aliquam faucibus purus. Pharetra et ultrices neque ornare aenean euismod. Cursus risus at ultrices mi. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Bibendum est ultricies integer quis auctor elit sed vulputate mi. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Lobortis mattis aliquam faucibus purus in massa. Ullamcorper sit amet risus nullam eget felis. In fermentum posuere urna nec tincidunt praesent semper feugiat. Lobortis feugiat vivamus at augue.`,
+  termEight: "Sed id semper risus in hendrerit gravida rutrum quisque.",
+  termNine: "Et magnis dis parturient montes nascetur ridiculus mus. Donec adipiscing tristique risus nec feugiat in fermentum posuere. Turpis nunc eget lorem dolor sed. Tristique et egestas quis ipsum. Lacus vel facilisis volutpat est velit egestas dui id.",
+  termTen: "Eget magna fermentum iaculis eu. Et magnis dis parturient montes nascetur ridiculus mus. Donec adipiscing tristique risus nec feugiat in fermentum posuere.",
+  fullTermsAndConditions: "Purus gravida quis blandit turpis cursus"
 }
 
-const whyScopeSection = {
-  title: "Why scope markets?",
-  description: "Scope Markets is by your side with every trade, asset and market decision. We combine ultra fast order execution, competitive spreads, 0% commission, and client education to help you achieve your trading goals.",
-  whyOneTitle: "Trusted Global Broker",
-  whyOneDescription: "Regulated by International Financial Services Commission (IFSC).",
-  whyTwoTitle: "Premium customer service",
-  whyTwoDescription: "24/5 global customer support over email, phone and live chat. Local support teams. Dedicated account managers.",
-  whyThreeTitle: "Competitive, Transparent Pricing",
-  whyThreeDescription: "0% commission, tight spreads, low overnight fees.",
-  whyFourTitle: "Multi-asset trading",
-  whyFourDescription: "Over 300+ instruments across forex, commodities, indices, shares and ETFs.",
-  whyFiveTitle: "Premium Customer Education",
-  whyFiveDescription: "Free daily and weekly webinars. Regular office seminars. In-house market analysts and educators. Hundreds of recorded webinars, video tutorials and guides."
+const aboveFooterSection = {
+  title: "Risus feugiat in ante metus dictum.",
+  description: "Rhoncus dolor purus non enim praesent elementum facilisis leo vel. Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Id aliquet lectus proin nibh nisl condimentum id.",
+  whyOneTitle: "Vestibulum mattis",
+  whyOneDescription: "Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt.",
+  whyTwoTitle: "Varius duis at consectetur",
+  whyTwoDescription: "Varius duis at consectetur lorem donec massa sapien faucibus.",
+  whyThreeTitle: "Felis imperdiet proin fermentum leo vel orci porta",
+  whyThreeDescription: "Tristique magna sit amet purus gravida. Est lorem ipsum dolor sit. Urna porttitor rhoncus dolor purus non enim praesent.",
+  whyFourTitle: "Neque sodales ut etiam sit amet nisl purus. Nulla aliquet porttitor lacus luctus accumsan tortor.",
+  whyFourDescription: "Augue ut lectus arcu bibendum. Vulputate sapien nec sagittis aliquam.",
+  whyFiveTitle: "Integer eget aliquet nibh praesent tristique magna sit.",
+  whyFiveDescription: "Urna porttitor rhoncus dolor purus non enim praesent elementum. Volutpat commodo sed egestas egestas. Velit sed ullamcorper morbi tincidunt ornare."
 }
 
 const footer = {
-  legalInformation: "Legal Information",
-  legalInformationText: "Scope Markets Ltd is a company registered under Belize with Registration Number 145,138. Scope Markets Ltd is authorized and regulated by the International Financial Services Commission of Belize (“IFSC”) under the license numbers 000274/222 and 000274/221. The registered address of Scope Markets Ltd is, 6160, Park Avenue, Buttonwood Bay, Lower Flat Office Space Front, Belize City, Belize.",
-  riskWarning: "Risk Warning",
-  riskWarningText: `Please note that forex trading and trading in other leveraged products involves a significant level of risk and is not suitable for all investors. Trading in financial instruments may result in losses as well as profits and your losses can be greater than your initial invested capital. Before undertaking any such transactions, you should ensure that you fully understand the risks involved and seek independent advice if necessary. Please read and ensure you fully understand our {riskDisclosure}.`,
-  restrictedCountries: "Restricted Regions",
-  restrictedCountriesText: `Scope Markets does not offer its services to the residents of certain jurisdictions. Please read carefully our {restrictedCountries} document.`,
-  cookiesPolicyText: `This website uses cookies to provide you with the very best experience and to know you better. By visiting our website with your browser set to allow cookies, you consent to our use of cookies as described in our {privacyPolicy}.`,
-  copyrightDisclaimer: "© Copyright 2021 Scope Markets. All Rights Reserved."
+  legalInformation: "Lorem Ipsum Iolor",
+  legalInformationText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sodales ut eu sem integer vitae justo eget. Cursus vitae congue mauris rhoncus aenean vel elit. Ut lectus arcu bibendum at. Ullamcorper velit sed ullamcorper morbi tincidunt ornare. Elit sed vulputate mi sit amet mauris commodo. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Sit amet mattis vulputate enim.",
+  document1: "Diam vel",
+  document1Text: `Pretium nibh ipsum consequat nisl vel pretium lectus quam. Posuere ac ut consequat semper viverra nam. At lectus urna duis convallis convallis. Rhoncus est pellentesque elit ullamcorper dignissim cras. Enim facilisis gravida neque convallis a cras {document1}.`,
+  document2: "Nulla facilisi",
+  document2Text: `Nulla facilisi nullam vehicula ipsum a arcu cursus. Aliquet lectus proin nibh nisl condimentum id venenatis {document2} porta .`,
+  document3Text: `Et netus et malesuada fames ac. Tincidunt dui ut ornare lectus sit amet est placerat. In nisl nisi scelerisque eu ultrices vitae. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc {document3}.`,
+  copyrightDisclaimer: "© Copyright 20xx Massa tempor. All Rights Reserved."
 }
 
 const socialMedia = {
-  twitter: `https://twitter.com/ScopeMarkets_NG`,
-  facebook: "https://www.facebook.com/ScopeMarkets.NG/",
-  linkedin: "https://www.linkedin.com/company/scope-markets",
-  instagram: "https://www.instagram.com/scopemarkets_ng/"
+  twitter: `https://twitter.com/`,
+  facebook: "https://www.facebook.com/",
+  linkedin: "https://www.linkedin.com/",
+  instagram: "https://www.instagram.com/darkunicode"
 }
 const header = {
   language: "Language"
@@ -153,9 +153,9 @@ export default {
   clippedSection,
   ctaButtons,
   firstSection,
-  simpleStepsClaimBonus,
-  importantBonusTerms,
-  whyScopeSection,
+  stepsSection,
+  popupBoxWithText,
+  aboveFooterSection,
   footer,
   socialMedia,
   header,

@@ -3,7 +3,7 @@
     <v-row class="mb-5">
       <v-col class="text-left">
         <span class="font-size-42">
-          {{ $t('simpleStepsClaimBonus.title')}}
+          {{ $t('stepsSection.title')}}
         </span>
       </v-col>
     </v-row>
@@ -20,10 +20,10 @@
       </v-col>
       <v-col
         class="col-9 col-lg-6 align-self-center pl-3 pl-3">
-        <span class="font-size-27 font-weight-bold">{{ $t('simpleStepsClaimBonus.stepOneTitle')}}</span>
+        <span class="font-size-27 font-weight-bold">{{ $t('stepsSection.stepOneTitle')}}</span>
         <br>
         <span class="font-weight-regular font-size-18 line-height-2">
-          {{ $t('simpleStepsClaimBonus.stepOneText')}}</span>
+          {{ $t('stepsSection.stepOneText')}}</span>
       </v-col>
     </v-row>
 
@@ -40,10 +40,10 @@
       </v-col>
       <v-col
         class="col-9 col-lg-6 align-self-center pl-3">
-        <span class="font-size-27 font-weight-bold">{{ $t('simpleStepsClaimBonus.stepTwoTitle') }}</span>
+        <span class="font-size-27 font-weight-bold">{{ $t('stepsSection.stepTwoTitle') }}</span>
         <br>
         <span class="font-weight-regular font-size-18 line-height-2">
-          {{ $t('simpleStepsClaimBonus.stepTwoText') }}
+          {{ $t('stepsSection.stepTwoText') }}
         </span>
       </v-col>
     </v-row>
@@ -61,10 +61,10 @@
       </v-col>
       <v-col
         class="col-9 col-lg-6 align-self-center pl-3">
-        <span class="font-size-27 font-weight-bold">{{ $t('simpleStepsClaimBonus.stepThreeTitle') }}</span>
+        <span class="font-size-27 font-weight-bold">{{ $t('stepsSection.stepThreeTitle') }}</span>
         <br>
         <span class="font-weight-regular font-size-18 line-height-2">
-          {{ $t('simpleStepsClaimBonus.stepThreeText') }}
+          {{ $t('stepsSection.stepThreeText') }}
         </span>
       </v-col>
     </v-row>
@@ -82,9 +82,9 @@
       </v-col>
       <v-col
         class="col-9 col-lg-6 align-self-center pl-3">
-        <span class="font-size-27 font-weight-bold">{{ $t('simpleStepsClaimBonus.stepFourTitle') }}</span>
+        <span class="font-size-27 font-weight-bold">{{ $t('stepsSection.stepFourTitle') }}</span>
         <br>
-        <span class="font-weight-regular font-size-18 line-height-2">{{ $t('simpleStepsClaimBonus.stepFourText') }}</span>
+        <span class="font-weight-regular font-size-18 line-height-2">{{ $t('stepsSection.stepFourText') }}</span>
       </v-col>
     </v-row>
   </div>
@@ -92,7 +92,7 @@
 
 <script>
 export default {
-  name: "SimpleStepsClaimBonus"
+  name: "StepsSection"
 }
 </script>
 

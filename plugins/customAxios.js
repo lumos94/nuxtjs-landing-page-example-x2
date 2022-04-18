@@ -1,5 +1,5 @@
 //https://github.com/nuxt-community/axios-module/issues/421
-export default function ({$axios, $config: {LEMA_URL, baseURL_SM}}, inject) {
+export default function ({$axios, $config: {OTHER_URL, baseURL}}, inject) {
   // Create a custom axios instance for registration
   const lemaRegistration = $axios.create({
     headers: {
@@ -26,16 +26,13 @@ export default function ({$axios, $config: {LEMA_URL, baseURL_SM}}, inject) {
   })
 
   // Set baseURL to something different
-  lemaRegistration.setBaseURL(`${LEMA_URL}/api/registration`)
+  lemaRegistration.setBaseURL(`${OTHER_URL}/register`)
 
   // Set baseURL to something different
-  lemaValidate.setBaseURL(`${LEMA_URL}/api/registration/validatelead`)
-
-  // Set baseURL to something different
-  smBZWebsite.setBaseURL(`${baseURL_SM}`)
+  lemaValidate.setBaseURL(`${OTHER_URL}/register/validate`)
 
   // Inject to context as $firebase
   inject('axiosValidation', lemaValidate)
   inject('axiosRegistration', lemaRegistration)
-  inject('smBZWebsiteAxios', smBZWebsite)
+
 }
