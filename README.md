@@ -22,7 +22,7 @@ $ npm run generate
 
 
 ## 🔗 Links
-[![linkedin](https://img.shields.io/badge/LinkedIn-0A66C2?style=social&logo=linkedin&logoColor=blue)](https://www.linkedin.com/)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0A66C2?style=social&logo=linkedin&logoColor=blue)](www.linkedin.com/in/george-x94)
 
 [![social badge](https://img.shields.io/badge/Instagram-E4405F?style=social&logo=instagram&logoColor=blue)](https://www.instagram.com/darkunicode)
 
