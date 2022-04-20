@@ -22,10 +22,7 @@ export default {
       {rel: 'stylesheet', type: '', href: 'https://emoji-css.afeld.me/emoji.css'}
 
     ],
-    script: [
-      {
-        src: 'https://wchat.freshchat.com/js/widget.js'
-      },
+    script: [     
     ]
   },
 
@@ -53,16 +50,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    // [
-    //   '@nuxtjs/redirect-module', {
-    //   redirect: [
-    //     {
-    //       from: '^.*(?<!/)$',
-    //       to: (from, req) => req.url + '/',
-    //       statusCode: 301
-    //     }]
-    // }],
+    '@nuxtjs/axios',   
     [
       '@nuxtjs/i18n', {
       defaultLocale: 'en',
@@ -138,15 +126,11 @@ export default {
   publicRuntimeConfig: {
     axios: {
       baseURL: "http://backup.test/registration-signin_portal"
-    },
-    // baseURL: process.env.LP_URL,
-    baseURL: "http://backup.test/registration-signin_portal",
-    API_KEY: process.env.API_KEY,
-    OTHER_URL: process.env.OTHER_URL,
-    CRM_URL: process.env.CRM_URL
+    },   
+    baseURL: "http://backup.test/registration-signin_portal",  
   },
   privateRuntimeConfig: {
-    // apiSecret: process.env.API_SECRET
+   
   },
 
 // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -154,7 +138,6 @@ export default {
     transpile: [
       "vee-validate/dist/rules",
       "vue-tel-input-vuetify",
-      // "@nuxtjs/axios"
     ],
   },
 
@@ -165,13 +148,7 @@ export default {
     extendRoutes(routes) {
       routes.forEach((route) => {
         // When options.generate.subFolders is true (default)
-        const alias = route.path.length > 1 ? `${route.path}/index.html` : '/index.html'
-
-        // When options.generate.subFolders is false
-        // const normalizedRoute = route.path.replace(/\/$/, '') // Remove trailing slashes if they exist
-        // const alias =
-        //   route.path.length > 1 ? `${normalizedRoute}.html` : '/index.html'
-
+        const alias = route.path.length > 1 ? `${route.path}/index.html` : '/index.html'      
         route.alias = alias
       })
     }
