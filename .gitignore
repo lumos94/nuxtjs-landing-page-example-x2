@@ -1,12 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 
-#backend
-backend/envVariables.php
-backend/dbConnection.php
-backend/initializecURL.php
-
 #deployment
-deployment/
 .github
 ### Node template
 # Logs
@@ -93,6 +87,7 @@ dist
 
 # IDE / Editor
 .idea
+.editorconfig
 
 # Service worker
 sw.*

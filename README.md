@@ -1,3 +1,5 @@
+# 2 Landing  Pages Examples written in NuxtJS
+
 ## Build Setup
 
 ```bash
@@ -14,3 +16,15 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
+
+## Documentation
+.sql file contains the database schema for the countries
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/LinkedIn-0A66C2?style=social&logo=linkedin&logoColor=blue)](https://www.linkedin.com/)
+
+[![social badge](https://img.shields.io/badge/Instagram-E4405F?style=social&logo=instagram&logoColor=blue)](https://www.instagram.com/darkunicode)
+
+## License
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
